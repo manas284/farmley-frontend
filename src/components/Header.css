@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #fff8f0;
+  border-bottom: 1px solid #ddd;
+}
+.register-btn {
+  margin-left: 10px;
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.search-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-btn {
+  text-decoration: none;
+  color: #4caf50;
+  font-weight: 600;
+}
+
+.cart-icon {
+  text-decoration: none;
+  color: #333;
+  position: relative;
+}
+
+.cart-count {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}
